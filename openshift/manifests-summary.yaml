@@ -1,7 +1,7 @@
 default:
 - apiVersion: rbac.authorization.k8s.io/v1
   kind: ClusterRole
-  name: capa-manager-role
+  name: openshift-capa-manager-role
 - apiVersion: rbac.authorization.k8s.io/v1
   kind: ClusterRoleBinding
   name: capa-manager-rolebinding
